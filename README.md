@@ -2,9 +2,9 @@
 
 
 
-# Aws_S3
+# AWS_S3
   
-Module to connect and work with AWS 
+Module to connect to AWS S3 Bucket  
 
 ## How to install this module
   

@@ -2,14 +2,14 @@
 
 
 
-# Aws_S3
+# AWS_S3
   
-Módulo para conectarse a AWS  
+Módulo para conectarse a AWS S3 Bucket  
   
-![banner](/docs/imgs/Banner_Aws_.png)
+![banner](imgs/Banner_AWS_S3.png)
 ## Como instalar este módulo
   
-__Descarga__ e __instala__ el contenido en la carpeta 'modules' en la ruta de rocketbot.  
+__Descarga__ e __instala__ el contenido en la carpeta 'modules' en la ruta de Rocketbot.  
 
 
 
@@ -56,5 +56,5 @@ Descarga un archivo de un Bucket
 | --- | --- | --- |
 |Nombre del Objeto||name_object|
 |Nombre del Bucket||name_bucket|
-|Nombre del Archivo||name_file|
+|Ruta del Archivo||file_path|
 |Asignar resultado a Variable|Variable donde se almacenara el resultado|Variable|
