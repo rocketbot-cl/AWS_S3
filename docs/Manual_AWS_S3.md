@@ -6,7 +6,7 @@
   
 Module to connect to AWS S3 Bucket  
   
-![banner](imgs/Banner_AWS_S3.png)
+![banner](imgs/Banner_AWS_S3.jpg)
 ## How to install this module
   
 __Download__ and __install__ the content in 'modules' folder in Rocketbot path  
