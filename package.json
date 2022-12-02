@@ -385,7 +385,7 @@
               "css": "col-md-12"
             },
             {
-              "type": "input",
+              "type": "folder_select",
               "placeholder": "file_path",
               "title": {
                 "es": "Ruta del Archivo:",
