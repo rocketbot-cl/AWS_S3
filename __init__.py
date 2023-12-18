@@ -23,7 +23,7 @@ Para instalar librerias se debe ingresar por terminal a la carpeta "libs"
 
 """
 
-base_path = tmp_global_obj["basepath"]
+base_path = tmp_global_obj["basepath"] # type: ignore
 cur_path = base_path + "modules" + os.sep + "AWS_S3" + os.sep + "libs" + os.sep
 
 if cur_path not in sys.path:
@@ -32,7 +32,12 @@ if cur_path not in sys.path:
 import traceback
 import os
 import sys
-from s3Object import S3Object
+from s3Object import S3Object # type: ignore
+
+GetParams = GetParams # type: ignore
+SetVar = SetVar # type: ignore
+PrintException = PrintException # type: ignore
+
 global session_aws_connect
 module = GetParams("module")
 try:
@@ -47,6 +52,7 @@ try:
             listBuckets = session_aws_connect.listBuckets()
             connect = True
         except:
+            traceback.print_exc()
             connect = False
         SetVar(var_, connect)
 
