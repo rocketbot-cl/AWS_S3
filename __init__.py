@@ -97,7 +97,7 @@ try:
         filePath = GetParams("filePath")
         var_ = GetParams('var_')
         
-        filename = os.path.basename(objectName)
+        filename = objectName.replace("/", "_")
         filePath = os.path.join(filePath, filename)
         
         try:

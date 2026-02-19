@@ -381,7 +381,7 @@
         },
         {
             "en": {
-                "title": "Donwload File",
+                "title": "Download File",
                 "description": "This command allows you to download a file from a Bucket to a local folder",
                 "title_options": "Select Option",
                 "options": null
@@ -410,9 +410,9 @@
                             "pr": "Nome do Objeto:"
                         },
                         "description": {
-                            "es": "Nombre del objeto que se descargara",
-                            "en": "Name of the object to be downloaded",
-                            "pr": "Nome do objeto que será baixado"
+                            "es": "Nombre del objeto que se descargara. Se reemplaza las barras '/' por guiones bajos '_' en el nombre final",
+                            "en": "Name of the object to be downloaded. It replaces the slashes '/' with underscores '_' in the final name",
+                            "pr": "Nome do objeto que será baixado. Ele substitui as barras '/' por sublinhados '_' no nome final"
                         },
                         "id": "objectName",
                         "css": "col-md-12",
