@@ -97,7 +97,8 @@ try:
         filePath = GetParams("filePath")
         var_ = GetParams('var_')
         
-        filePath = os.path.join(filePath, objectName)
+        filename = objectName.replace("/", "_")
+        filePath = os.path.join(filePath, filename)
         
         try:
             downloadFileFromBucket = session_aws_connect.downloadFileFromBucket(objectName, bucketName, filePath)

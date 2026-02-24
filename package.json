@@ -7,7 +7,7 @@
         "pr": "Módulo para se conectar ao AWS S3 Bucket"
     },
     "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "license": "MIT",
     "homepage": "http://rocketbot.com",
     "linux": false,
@@ -381,7 +381,7 @@
         },
         {
             "en": {
-                "title": "Donwload File",
+                "title": "Download File",
                 "description": "This command allows you to download a file from a Bucket to a local folder",
                 "title_options": "Select Option",
                 "options": null
@@ -410,9 +410,9 @@
                             "pr": "Nome do Objeto:"
                         },
                         "description": {
-                            "es": "Nombre del objeto que se descargara",
-                            "en": "Name of the object to be downloaded",
-                            "pr": "Nome do objeto que será baixado"
+                            "es": "Nombre del objeto que se descargara. Se reemplaza las barras '/' por guiones bajos '_' en el nombre final",
+                            "en": "Name of the object to be downloaded. It replaces the slashes '/' with underscores '_' in the final name",
+                            "pr": "Nome do objeto que será baixado. Ele substitui as barras '/' por sublinhados '_' no nome final"
                         },
                         "id": "objectName",
                         "css": "col-md-12",
